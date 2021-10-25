@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+body {
+    background-color: #112334;
+}
+div {
+    border: 1px solid #2ead69;
+    margin: 40px auto;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    background-color: #182b3e;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+legend {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin: 15px 0 20px 0;
+}
+
+label {
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+}
+
+input {
+    display: block;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-bottom: 25px;
+    border: 2px solid #2ead69;
+}
+
+.rede {
+    display: block;
+}
+.redes {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.inline {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.radio {
+    margin: 0 10px 0 0;
+}
+.eye {
+    margin-top: 25px;
+}
+
+.eyes {
+    padding: 0;
+}
+textarea {
+    margin-bottom: 25px;
+    border: 2px solid #2ead69;
+}
+
+button {
+    display: flex;
+    margin: 0 20px 20px 0;
+    width: 150px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    background-color: #9da5a1;
+    cursor: pointer;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    border: 2px solid #2ead69;
+}
+
+button:hover {
+    background-color: #2ead69;
+    color: white;
+    width: 180px;
+    border: 2px solid #9da5a1;
+}

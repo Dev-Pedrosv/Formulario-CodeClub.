@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div>
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            <legend>Cadastrar</legend>
+            <label for="">
+                Nome:
+                <input type="text" placeholder="Digite seu nome" required>
+            </label>
+
+
+            <label for="">
+                Email:
+
+                <input type="email" placeholder="Digite seu email" required>
+            </label>
+
+
+            <label for="">
+                Idade:
+
+                <input type="number" min=12 placeholder="Digite sua Idade" required>
+            </label>
+
+
+            <label for="">
+                Data de Nascimeto:
+
+                <input type="date" required>
+            </label>
+
+
+            <label class="rede" for="">
+                Onde você possui conta:
+            </label>
+            <label class="redes" for="">
+
+                <input class="redes" type="checkbox" value="Instagram">Instagram
+            </label>
+
+            <label class="redes" for=""><input class="redes" type="checkbox" value="Facebook">Facebook</label>
+            <label class="redes" for=""><input class="redes" type="checkbox" value="Youtube">Youtube</label>
+
+
+
+            <label for="">
+                Sexo:
+            </label>
+            <label class="inline" for=""> <input class="radio" type="radio" name="sexo"
+                    value="Masculino">Masculino</label>
+            <label class="inline" for=""> <input class="radio" type="radio" name="sexo"
+                    value="Feminino">Feminino</label>
+
+
+
+            <label class="eye" for="">
+                Cor dos Olhos:
+                <input class="eyes" type="color">
+            </label>
+
+
+            <label for="">
+                Biografia:
+            </label>
+            <textarea rows="3" cols="33" placeholder="Conte um pouco sobre você." required></textarea>
+
+
+
+            <label for="">
+                Foto do perfil:
+
+                <input type="file" accept="image/*" required>
+            </label>
+
+
+            <label for="">
+                Telefone:
+
+                <input type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="xx-xxxxx-xxxx" required>
+            </label>
+
+
+            <label for="">
+                Link do Perfil do Facebook:
+
+                <input type="url" required>
+            </label>
+
+
+            <label for="">
+                Senha:
+
+                <input minlength="6" maxlength="8" type="password" placeholder="Digite sua senha" required>
+            </label>
+
+
+            <button class="button1" type="reset">Limpar</button>
+            <button type="submit">Enviar Dados</button>
+        </form>
+
+
+    </div>
+</body>
+
+</html>

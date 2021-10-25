@@ -1,23 +1,15 @@
-# Login Interface
+# Formulário Code Club.
 
-<video width="320" height="240" controls>
-  <source src="./assets/1.mp4" type="video/mp4">
-
-</video>
+<img src="./assets/gif.gif" alt="git do projeto">
 
 > Interface do projeto finalizado
 
-### Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+### Progresso do projeto
 
 - [x] Criação HTML
 - [x] Criação CSS
-- [ ] Melhoria de layout
-- [ ] Adicionar botões Logins com Redes Sociais
-
-
-
+- [x] Animação de botões
+- [x] Validação de informações
 
 ## 🤝 Colaboradores
 
